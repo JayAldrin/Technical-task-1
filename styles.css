@@ -1,0 +1,207 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #e9f9ef;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #22c55e;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a .nav-link .nav-user {
+    padding-right: 300px;
+}
+
+.navbar-nav {
+    padding-left: 50px;
+}
+
+.navbar-nav .nav-link, .navbar-brand, .nav-user {
+    color: #e9f9ef !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+.container {
+    height: 80vh;
+    width: 100vw;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.opacity {
+    opacity: 50%;
+}
+
+.img2 {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+}
+
+.img3 {
+    position: relative;
+    width: 100%;
+    height: 13.5rem;
+}
+
+.img4 {
+    position: relative;
+    width: 100%;
+    height: 13.5rem;
+}
+
+.img-con {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    padding: 10px;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.text p, .text a {
+    margin: 0;
+    font-weight: 400;
+}
+
+a {
+    color: #e9f9ef;
+    text-decoration: none;
+}
+
+.furn {
+    font-size: 3rem; 
+    font-weight: 700 !important; 
+    color: #e9f9ef;
+}
+
+.items {
+    color: #64d68e;
+}
+
+.text2 {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.text3 {
+    position: absolute;
+    top: 0;
+    left: 2;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.text4 {
+    position: absolute;
+    top: 0;
+    left: 2;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+
+    @media (max-width: 450px) {
+    
+        .text {
+            font-size: 1rem ;
+        }
+    
+        .text2 {
+            font-size: 1rem;
+        }
+    
+        .text3 {
+            font-size: 1rem;
+        }
+    
+        .text4 {
+            font-size: 1rem;
+        }
+    
+        .furn {
+            font-size: 2rem;
+        }
+    }
+
+    @media (width: 768px) {
+    
+        .text {
+            font-size: 1rem ;
+        }
+    
+        .text2 {
+            font-size: 1rem;
+        }
+    
+        .text3 {
+            font-size: 1rem;
+        }
+
+        .text3 .furn {
+            font-size: 1rem;
+        }
+
+        .text4 .furn {
+            font-size: 1rem;
+        }
+    
+        .text4 {
+            font-size: 1rem;
+        }
+    
+        .furn {
+            font-size: 2rem;
+        }
+    }
+
+    @media (width: 1024px) {
+    
+        .text, .text2 {
+            font-size: 2rem ;
+        }
+    
+        .text3, .text4 {
+            font-size: 1.5rem;
+        }
+
+        .text3 .furn, .text4 .furn {
+            font-size: 2.5rem;
+        }
+    
+        .furn {
+            font-size: rem;
+        }
+    }
